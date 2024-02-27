@@ -47,9 +47,9 @@ function Pricing() {
       {/* Second Pricing Block */}
 
       <div className="shadow p-5 rounded-lg border-t-4 border-b3yellow bg-white">
-        <p className="uppercase text-sm font-medium text-gray-500">Standard</p>
-        <p className="mt-4 text-3xl text-gray-700 font-medium">$30 <span className="text-base font-normal">/listing</span></p>
-        <p className="mt-4 font-medium text-gray-700">When free quota fully used</p>
+        <p className="uppercase text-sm font-medium text-gray-500">Mensual</p>
+        <p className="mt-4 text-3xl text-gray-700 font-medium">$32.000 <span className="text-base font-normal">/listing</span></p>
+        <p className="mt-4 font-medium text-gray-700">2 clases a la semana </p>
         <div className="mt-8">
           <ul className="grid grid-cols-1 gap-4">
             <li className="inline-flex items-center text-gray-600">
@@ -57,9 +57,7 @@ function Pricing() {
                 className="w-4 h-4 mr-2 fill-current text-green-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-              >
-                {/* SVG path */}
-              </svg>
+              ></svg>
               30 days only
             </li>
             <li className="inline-flex items-center text-gray-600">
@@ -67,9 +65,7 @@ function Pricing() {
                 className="w-4 h-4 mr-2 fill-current text-green-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-              >
-                {/* SVG path */}
-              </svg>
+              ></svg>
               Twice weekly email newsletter
             </li>
             <li className="inline-flex items-center text-gray-600">
@@ -77,9 +73,7 @@ function Pricing() {
                 className="w-4 h-4 mr-2 fill-current text-green-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-              >
-                {/* SVG path */}
-              </svg>
+              ></svg>
               Social feed share (3 platforms)
             </li>
           </ul>

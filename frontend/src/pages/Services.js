@@ -6,9 +6,7 @@ import Spinner from '../components/Spinner';
 function Services() {
   const [loading, setLoading] = useState(true);
 
-  // Your actual loading logic here
-  // For example, if you're fetching data, setLoading(false) would typically go in the success/failure callback
-  // For demonstration, using setTimeout to toggle loading after 2 seconds
+  // Change to true logic when feasible
   setTimeout(() => {
     setLoading(false);
   }, 2000);
